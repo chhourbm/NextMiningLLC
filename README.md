@@ -1,5 +1,5 @@
 # fme
-Author: Brian Chhour & Roland Monh
+Author: Brian Chhour, Alex Chhour, Roland Monh
 
 Future Mining Enterprise
 
