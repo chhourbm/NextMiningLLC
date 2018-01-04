@@ -1,21 +1,24 @@
 .headerText {
+  background-color: transparent;
+  color: gray;
   text-align: center;
   font-size: 50px;
+  text-transform: none;
 }
 
-ul.nav {
+ul.nav{
   top: 0;
   width: 100%;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: transparent;
 }
 
 li {
   float: left;
-  border-right: 1px solid #bbb;
+  border-right: none;
 }
 
 li:last-child {
@@ -24,18 +27,18 @@ li:last-child {
 
 li a {
   display: block;
-  color: white;
+  color: gray;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 /* Change the link color to #111 (black) on hover */
 
 li a:hover {
-  background-color: #111;
+  background-color: lightblue;
 }
 
 .active {
-  background-color: #808080;
+  background-color: transparent;
 }
