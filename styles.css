@@ -79,25 +79,16 @@ li.dropdown {
 }
 
 .dropdown-content a:hover {
-  background-color: lightblue
+  background-color: gray
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-/* Change the link color to #111 (black) on hover */
-
-li a:hover {
-  background-color: white;
-}
-
-.active {
-  background-color: white;
-}
-
 body {
-  background-image: /*url("mining.jpg")*/;
+  background-image: /*url("mining.jpg")*/
+  ;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: black;
@@ -108,6 +99,10 @@ body {
   margin: 0
 }
 
+/* SLIDESHOW */
+
+/* Hide the images by default */
+
 .mySlides {
   display: none
 }
@@ -116,9 +111,12 @@ img {
   vertical-align: middle;
 }
 
-* {box-sizing:border-box}
+* {
+  box-sizing: border-box
+}
 
 /* Slideshow container */
+
 .slideshow-container {
   max-width: none;
   position: relative;
@@ -128,11 +126,13 @@ img {
 }
 
 /* Hide the images by default */
+
 .mySlides {
-    display: none;
+  display: none;
 }
 
 /* Next & previous buttons */
+
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -148,17 +148,20 @@ img {
 }
 
 /* Position the "next button" to the right */
+
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
+
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Caption text */
+
 .text {
   color: #f2f2f2;
   font-size: 15px;
@@ -170,6 +173,7 @@ img {
 }
 
 /* Number text (1/3 etc) */
+
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
@@ -179,8 +183,9 @@ img {
 }
 
 /* The dots/bullets/indicators */
+
 .dot {
-  cursor:pointer;
+  cursor: pointer;
   height: 15px;
   width: 15px;
   margin: 0 2px;
@@ -191,10 +196,11 @@ img {
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: white;
 }
 
 /* Fading animation */
+
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -203,14 +209,24 @@ img {
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+  from {
+    opacity: .4
+  }
+  to {
+    opacity: 1
+  }
 }
 
 @keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+  from {
+    opacity: .4
+  }
+  to {
+    opacity: 1
+  }
 }
+
+/* End SLIDESHOW */
 
 /* On smaller screens, decrease text size */
 
