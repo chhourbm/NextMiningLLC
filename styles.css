@@ -1,6 +1,6 @@
 .headerText {
   background-color: transparent;
-  color: gray;
+  color: skyblue;
   text-align: center;
   font-size: 100px;
   text-transform: none;
@@ -47,14 +47,14 @@ li {
 
 li a, .dropbtn {
   display: inline-block;
-  color: gray;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: underline;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-  background-color: #f9f9f9;
+  background-color: skyblue;
 }
 
 li.dropdown {
@@ -79,7 +79,7 @@ li.dropdown {
 }
 
 .dropdown-content a:hover {
-  background-color: gray
+  background-color: skyblue
 }
 
 .dropdown:hover .dropdown-content {
@@ -91,7 +91,7 @@ body {
   ;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: black;
+  background-color: transparent;
 }
 
 body {
@@ -179,14 +179,14 @@ img {
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #bbb;
+  background-color: black;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 
 .active, .dot:hover {
-  background-color: white;
+  background-color: skyblue;
 }
 
 /* Fading animation */
