@@ -5,29 +5,39 @@
   <title>Future Mining Enterprise</title>
   <link href="styles.css" rel="stylesheet" type="text/css" />
   <script src="func.js"></script>
-  <div class="headerText">
-    <img src="NextMiningSmall.png" alt="Logo">
-  </div>
 </head>
 
 <nav>
   <ul class="nav">
     <li><a href="home.html">Home</a></li>
-    <li><a href="products.html" class="active">Products</a></li>
+    <li class="dropdown">
+      <a href="products.html" class="dropbtn active">Products</a>
+      <div class="dropdown-content">
+        <a href="#">Rig</a>
+        <a href="#">ASIC</a>
+      </div>
+    </li>
     <li><a href="about.html">About</a></li>
     <li><a href="support.html">Support</a></li>
     <li><a href="contact.html">Contact</a></li>
+    <li style="float:right"><a href="myaccount.html">My Account</a></li>
+    <li style="float:right"><a href="mycart.html">My Cart</a></li>
   </ul>
-  <!-- New tabs for listing the different categories of GPUs and ASICs -->
-  <ul class="types">
-    <li><a href="#">GPU Mining Rigs</a></li>
-    <li><a href="#">ASIC Mining Rigs</a></li>
+
 </nav>
+
+<div class="headerText">
+  <img src="NextMiningSmall.png" alt="Logo">
+</div>
 
 
 <body>
   <!-- Header to show the items under it -->
-
+  <!-- New tabs for listing the different categories of GPUs and ASICs -->
+  <ul class="types">
+    <li><a href="#">GPU Mining Rigs</a></li>
+    <li><a href="#">ASIC Mining Rigs</a></li>
+  </ul>
   <header id="GPUProductHeader">GPUs</header>
   <!-- Items in the GPU section -->
   <table>
