@@ -1,6 +1,6 @@
 .headerText {
   background-color: #197bd2;
-  color: skyblue;
+  color: black;
   text-align: center;
   font-size: 100px;
   text-transform: none;
@@ -248,4 +248,18 @@ img {
   align-items:center;
   font-size: 40px;
   margin-top:500px;
+}
+
+th{
+  justify-content:center;
+  align-items:center;
+}
+
+td{
+  justify-content:center;
+  align-items:center;
+}
+
+.price{
+  left: -20px;
 }
