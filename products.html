@@ -5,6 +5,20 @@
   <title>Future Mining Enterprise</title>
   <link href="styles.css" rel="stylesheet" type="text/css" />
   <script src="func.js"></script>
+  <style media="screen">
+    #Items{
+      display:flex;
+      flex-direction: column;
+      justify-content:center;
+      align-items:center;
+    }
+    .items{
+      display:flex;
+      flex-direction: column;
+      justify-content:center;
+      align-items:center;
+    }
+  </style>
 </head>
 
 <nav>
@@ -34,33 +48,92 @@
 <body>
   <!-- Header to show the items under it -->
   <!-- New tabs for listing the different categories of GPUs and ASICs -->
+
   <ul class="types">
     <li><a href="#">GPU Mining Rigs</a></li>
     <li><a href="#">ASIC Mining Rigs</a></li>
   </ul>
   <header id="GPUProductHeader">GPUs</header>
   <!-- Items in the GPU section -->
-  <table>
+  <table class="items">
     <thead>
-      <tr class="productName">
-        <th>Name</th>
-        <th>Name</th>
-        <th>Name</th>
+      <tr id="Items">
+        <th>
+          <table>
+            <thead>
+              <tr class="productName">
+                <th>Geforce GTX 1080 TI</th>
+                <th>Geforce GTX 1070</th>
+                <th>AMD Radeon 760</th>
+                <div style="margin-top:40px"></div>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><img src="NextMiningSmall.png" alt="Sample Product"></td>
+                <td><img src="NextMiningSmall.png" alt="Sample Product"></td>
+                <td><img src="NextMiningSmall.png" alt="Sample Product"></td>
+              </tr>
+              <tr class="price">
+                <td><a href="#">$99.99</a></td>
+                <td><a href="#">$2,899.00</a></td>
+                <td><a href="#">$3,700.00</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </th>
+        <th>
+          <table>
+            <thead>
+              <tr class="productName">
+                <th>Geforce GTX 1080 TI</th>
+                <th>Geforce GTX 1070</th>
+                <th>AMD Radeon 760</th>
+                <div style="margin-top:40px"></div>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><img src="NextMiningSmall.png" alt="Sample Product"></td>
+                <td><img src="NextMiningSmall.png" alt="Sample Product"></td>
+                <td><img src="NextMiningSmall.png" alt="Sample Product"></td>
+              </tr>
+              <tr class="price">
+                <td><a href="#">$99.99</a></td>
+                <td><a href="#">$2,899.00</a></td>
+                <td><a href="#">$3,700.00</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </th>
+        <th>
+          <table>
+            <thead>
+              <tr class="productName">
+                <th>Geforce GTX 1080 TI</th>
+                <th>Geforce GTX 1070</th>
+                <th>AMD Radeon 760</th>
+                <div style="margin-top:40px"></div>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><img src="NextMiningSmall.png" alt="Sample Product"></td>
+                <td><img src="NextMiningSmall.png" alt="Sample Product"></td>
+                <td><img src="NextMiningSmall.png" alt="Sample Product"></td>
+              </tr>
+              <tr class="price">
+                <td><a href="#">$99.99</a></td>
+                <td><a href="#">$2,899.00</a></td>
+                <td><a href="#">$3,700.00</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </th>
       </tr>
     </thead>
-    <tbody>
-      <tr>
-        <td><img src="NextMiningSmall.png" alt="Sample Product"></td>
-        <td><img src="NextMiningSmall.png" alt="Sample Product"></td>
-        <td><img src="NextMiningSmall.png" alt="Sample Product"></td>
-      </tr>
-      <tr class="price">
-        <td>$99.99</td>
-        <td>$2,899.00</td>
-        <td>$3,700.00</td>
-      </tr>
-    </tbody>
   </table>
+
   <br>
   <header id="ASICProductHeader">ASICs</header>
   <div style="margin-top:500px"></div>
