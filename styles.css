@@ -273,3 +273,9 @@ td{
   justify-content:center;
   align-items:center;
 }
+.tableItems{
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+}
