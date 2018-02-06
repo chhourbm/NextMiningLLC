@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Next Mining, LLC.</title>
+  <link href="styles.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<nav>
+  <ul class="nav">
+    <li><a href="home.html" class="active">Home</a></li>
+    <li class="dropdown">
+      <a href="products.html" class="dropbtn">Products</a>
+      <div class="dropdown-content">
+        <a href="RigProducts.html">Rig</a>
+        <a href="AsicProducts.html">ASIC</a>
+      </div>
+    </li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="support.html">Support</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li style="float:right"><a href="myaccount.html">My Account</a></li>
+    <li style="float:right"><a href="mycart.html">My Cart</a></li>
+  </ul>
+</nav>
+
+<div class="headerText">
+  <marquee behavior="scroll" direction="left">Welcome to <img src="NextMiningSmall.png" alt="Logo"></marquee>
+</div>
+
+<!-- SLIDESHOW Code -->
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="asic mining rig.jpg" style="width:100%">
+    <div class="text">Asic Mining Rig</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="ethereum rig.jpg" style="width:100%">
+    <div class="text">Ethereum Rig</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="gpu mining rig.jpg" style="width:100%">
+    <div class="text">GPU Mining Rig</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+<!-- END SLIDESHOW CODE -->
+<!-- Moved everything up for more space on the bottom -->
+<div style="margin-top:500px"></div>
+<script src="func.js"></script>
+
+
+
+</html>

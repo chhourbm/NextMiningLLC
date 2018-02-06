@@ -1,11 +1,11 @@
 .headerText {
-  background-color: #197bd2;
+  background-color: white;
   color: black;
   text-align: center;
   font-size: 100px;
   text-transform: none;
 }
-
+/*#197bd2 the original blue color from Alex's update*/
 ul.nav {
   top: 0;
   width: 100%;
@@ -13,7 +13,7 @@ ul.nav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #197bd2;
+  background-color: white;
 }
 
 li {
@@ -51,6 +51,7 @@ li a, .dropbtn {
   text-align: center;
   padding: 14px 16px;
   text-decoration: underline;
+  background-color: none;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
@@ -226,12 +227,14 @@ img {
   }
 }
 /* Products page */
-.types{
+.productTypes{
   display:flex;
   flex-direction: column;
-  justify-content:left;
-  align-items:left;
+  justify-content: left;
+  align-items: left;
   color:white;
+  display: inline-block;
+  background-color: transparent;
 }
 
 #GPUProductHeader{
@@ -264,7 +267,11 @@ td{
 
 .price{
   margin-left: 100px;
-  color: red;
+  color: black;
+}
+
+.addButton{
+   font-size: 16px;
 }
 
 #Items{
@@ -279,3 +286,4 @@ td{
   justify-content:center;
   align-items:center;
 }
+

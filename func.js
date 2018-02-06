@@ -49,3 +49,4 @@ function carousel() {
   setTimeout(carousel, 5000); // Change image every 5 seconds
 }
 //END SLIDESHOW Functions
+
