@@ -1,4 +1,4 @@
-# fme
+# NextMiningLLC
 Author: Brian Chhour, Alex Chhour, Roland Monh
 
 Future Mining Enterprise
