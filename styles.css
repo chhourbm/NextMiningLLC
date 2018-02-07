@@ -5,7 +5,9 @@
   font-size: 100px;
   text-transform: none;
 }
+
 /*#197bd2 the original blue color from Alex's update*/
+
 ul.nav {
   top: 0;
   width: 100%;
@@ -226,77 +228,81 @@ img {
     font-size: 11px
   }
 }
+
 /* Products page */
-.productTypes{
-  display:flex;
+
+.productTypes {
+  display: flex;
   flex-direction: column;
   justify-content: left;
   align-items: left;
-  color:white;
+  color: white;
   display: inline-block;
   background-color: transparent;
 }
 
-#GPUProductHeader{
-  display:flex;
+#GPUProductHeader {
+  display: flex;
   flex-direction: column;
-  justify-content:center;
-  align-items:center;
+  justify-content: center;
+  align-items: center;
   font-size: 40px;
-}
-#ASICProductHeader{
-  display:flex;
-  flex-direction: column;
-  justify-content:center;
-  align-items:center;
-  font-size: 40px;
-  margin-top:500px;
 }
 
-th{
-  justify-content:center;
-  align-items:center;
+#ASICProductHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  margin-top: 500px;
+}
+
+th {
+  justify-content: center;
+  align-items: center;
   margin-left: 20px;
 }
 
-td{
-  justify-content:center;
-  align-items:center;
+td {
+  justify-content: center;
+  align-items: center;
   margin-left: 100;
 }
 
-.price{
+.price {
   margin-left: 100px;
   color: black;
 }
 
-.addButton{
-   font-size: 16px;
+.addButton {
+  font-size: 16px;
 }
 
-#Items{
-  display:flex;
+#Items {
+  display: flex;
   flex-direction: column;
-  justify-content:center;
-  align-items:center;
+  justify-content: center;
+  align-items: center;
 }
-.tableItems{
-  display:flex;
+
+.tableItems {
+  display: flex;
   flex-direction: column;
-  justify-content:center;
-  align-items:center;
+  justify-content: center;
+  align-items: center;
 }
-.tableProfile{
-  display:flex;
+
+.tableProfile {
+  display: flex;
   flex-direction: column;
-  justify-content:center;
-  align-items:center;
+  justify-content: center;
+  align-items: center;
 }
 
 .avatar {
-    vertical-align: middle;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-	
+  vertical-align: middle;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
