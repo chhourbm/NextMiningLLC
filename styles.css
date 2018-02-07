@@ -286,4 +286,17 @@ td{
   justify-content:center;
   align-items:center;
 }
+.tableProfile{
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+}
 
+.avatar {
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+	
+}
