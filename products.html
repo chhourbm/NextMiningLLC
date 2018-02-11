@@ -2,24 +2,23 @@
 <html>
 
 <head>
-  <title>Future Mining Enterprise</title>
+  <title>Next Mining, LLC.</title>
   <link href="styles.css" rel="stylesheet" type="text/css" />
   <script src="func.js"></script>
-  
+
 </head>
 
 <nav>
   <ul class="nav">
     <li><a href="home.html">Home</a></li>
     <li class="dropdown">
-      <a href="products.html" class="dropbtn active">Products</a>
+      <a href="products.html" class="active">Products</a>
       <div class="dropdown-content">
-        <a href="#">Rig</a>
-        <a href="#">ASIC</a>
+        <a href="RigProducts.html">Rig</a>
+        <a href="AsicProducts.html">ASIC</a>
       </div>
     </li>
     <li><a href="about.html">About</a></li>
-    <li><a href="support.html">Support</a></li>
     <li><a href="contact.html">Contact</a></li>
     <li style="float:right"><a href="myaccount.html">My Account</a></li>
     <li style="float:right"><a href="mycart.html">My Cart</a></li>
@@ -28,7 +27,7 @@
 </nav>
 
 <div class="headerText">
-  <img src="NextMiningSmall.png" alt="Logo">
+  <marquee behavior="scroll" direction="right"><img src="NextMiningSmall.png" alt="Logo"></marquee>
 </div>
 
 
@@ -36,36 +35,31 @@
   <!-- Header to show the items under it -->
   <!-- New tabs for listing the different categories of GPUs and ASICs -->
 
-  <ul class="types">
-    <li><a href="#">GPU Mining Rigs</a></li>
-    <li><a href="#">ASIC Mining Rigs</a></li>
-  </ul>
-  <header id="GPUProductHeader">GPUs</header>
+  <!--<ul class="productTypes">
+    <li><a href="RigProducts.html">GPU Mining Rigs</a></li>
+    <li><a href="AsicProducts.html">ASIC Mining Rigs</a></li>
+  </ul>-->
+  <header id="ProductHeader" style="font-size:50px; display:flex; flex-direction: column; justify-content:center; align-items:center;">Products</header>
   <!-- Items in the GPU section -->
   <table class="tableItems">
     <thead>
-      <tr id="Items">
+      <tr id="Items" style="display: inline-block;">
         <th>
           <table>
             <thead>
               <tr class="productName">
-                <th>Geforce GTX 1080 TI</th>
-                <th>Geforce GTX 1070</th>
-                <th>AMD Radeon 760</th>
+                <th>GPUs</th>
                 <div style="margin-top:40px"></div>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td><img src="NextMiningSmall.png" alt="Sample Product"></td>
-                <td><img src="NextMiningSmall.png" alt="Sample Product"></td>
-                <td><img src="NextMiningSmall.png" alt="Sample Product"></td>
+                <td><a href="RigProducts.html"><img src="GPUunit.jpg" alt="Sample Product" style="width:400px; height:310px;"></a></td>
               </tr>
-              <tr class="price">
-                <td><a href="#">$99.99</a></td>
-                <td><a href="#">$2,899.00</a></td>
-                <td><a href="#">$3,700.00</a></td>
+              <tr class="addButton">
+                <td><button type="button"><a href="RigProducts.html">View Selections</a></button></td>
               </tr>
+
             </tbody>
           </table>
         </th>
@@ -73,57 +67,26 @@
           <table>
             <thead>
               <tr class="productName">
-                <th>Geforce GTX 1080 TI</th>
-                <th>Geforce GTX 1070</th>
-                <th>AMD Radeon 760</th>
+                <th>ASICs</th>
                 <div style="margin-top:40px"></div>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td><img src="NextMiningSmall.png" alt="Sample Product"></td>
-                <td><img src="NextMiningSmall.png" alt="Sample Product"></td>
-                <td><img src="NextMiningSmall.png" alt="Sample Product"></td>
+                <td><a href="AsicProducts.html"><img src="AntminerS9.jpg" alt="Sample Product" style="width:400px; height:310px;"></a></td>
               </tr>
-              <tr class="price">
-                <td><a href="#">$99.99</a></td>
-                <td><a href="#">$2,899.00</a></td>
-                <td><a href="#">$3,700.00</a></td>
+              <tr class="addButton">
+                <td><button type="button"><a href="AsicProducts.html">View Selections</a></button></td>
               </tr>
-            </tbody>
-          </table>
-        </th>
-        <th>
-          <table>
-            <thead>
-              <tr class="productName">
-                <th>Geforce GTX 1080 TI</th>
-                <th>Geforce GTX 1070</th>
-                <th>AMD Radeon 760</th>
-                <div style="margin-top:40px"></div>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><img src="NextMiningSmall.png" alt="Sample Product"></td>
-                <td><img src="NextMiningSmall.png" alt="Sample Product"></td>
-                <td><img src="NextMiningSmall.png" alt="Sample Product"></td>
-              </tr>
-              <tr class="price">
-                <td><a href="#">$99.99</a></td>
-                <td><a href="#">$2,899.00</a></td>
-                <td><a href="#">$3,700.00</a></td>
-              </tr>
-            </tbody>
-          </table>
-        </th>
+      </tr>
+      </tbody>
+      </table>
+      </th>
       </tr>
     </thead>
   </table>
-
-  <br>
-  <header id="ASICProductHeader">ASICs</header>
   <div style="margin-top:500px"></div>
+
 </body>
 
 </html>

@@ -2,24 +2,107 @@
 <html>
 
 <head>
-  <title>Future Mining Enterprise</title>
+  <title>Next Mining, LLC.</title>
   <link href="styles.css" rel="stylesheet" type="text/css" />
   <script src="func.js"></script>
+
 </head>
-<div class="headerText">
-  Future Mining Enterprise
-</div>
-<div>
+
+<nav>
   <ul class="nav">
     <li><a href="home.html">Home</a></li>
-    <li><a href="products.html">Products</a></li>
+    <li class="dropdown">
+      <a href="products.html">Products</a>
+      <div class="dropdown-content">
+        <a href="RigProducts.html">Rig</a>
+        <a href="AsicProducts.html">ASIC</a>
+      </div>
+    </li>
     <li><a href="about.html" class="active">About</a></li>
-    <li><a href="support.html">Support</a></li>
     <li><a href="contact.html">Contact</a></li>
+    <li style="float:right"><a href="myaccount.html">My Account</a></li>
+    <li style="float:right"><a href="mycart.html">My Cart</a></li>
   </ul>
+
+</nav>
+
+<div class="headerText">
+  <marquee behavior="scroll" direction="right"><img src="NextMiningSmall.png" alt="Logo"></marquee>
 </div>
 
 <body>
+  <header id="ProductHeader" style="font-size:50px; display:flex; flex-direction: column; justify-content:center; align-items:center;">Our Vision</header>
+  <p style="text-align:center;">This will be a story on how we got started and what we aim to accomplish as a company.</p>
+  <div style="margin-top:400px"></div>
 </body>
+
+<body>
+  <header id="ProductHeader" style="font-size:50px; display:flex; flex-direction: column; justify-content:center; align-items:center;">Meet The Team</header>
+  <!-- Items in the GPU section -->
+  <table class="tableProfile">
+    <thead>
+      <tr id="Items">
+        <th>
+          <table width="100" cellpadding="10">
+            <thead>
+              <tr class="name">
+                <th>Roland Monh</th>
+                <th>Joseph Tran</th>
+                <th>Ahmed El Khalifa</th>
+                <th>Brian Chhour</th>
+                <div style="margin-top:40px"></div>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th><img src="avatar.jpg" alt="Avatar" class="avatar"></th>
+                <th><img src="avatar.jpg" alt="Avatar" class="avatar"></th>
+                <th><img src="avatar.jpg" alt="Avatar" class="avatar"></th>
+                <th><img src="avatar.jpg" alt="Avatar" class="avatar"></th>
+              </tr>
+              <tr class="role">
+                <th>President</th>
+                <th>Vice President</th>
+                <th>Treasurer</th>
+                <th>Secretary</th>
+              </tr>
+            </tbody>
+          </table>
+        </th>
+      </tr>
+    </thead>
+    <table class="tableProfile">
+      <thead>
+        <tr id="Items">
+          <th>
+            <table width="100" cellpadding="10">
+              <thead>
+                <tr class="name">
+                  <th>Kenneth Monh</th>
+                  <th>Alexander Chhour</th>
+                  <th>Bruce Something</th>
+                  <div style="margin-top:40px"></div>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th><img src="avatar.jpg" alt="Avatar" class="avatar"></th>
+                  <th><img src="avatar.jpg" alt="Avatar" class="avatar"></th>
+                  <th><img src="avatar.jpg" alt="Avatar" class="avatar"></th>
+                </tr>
+                <tr class="role">
+                  <th>Business Consultant</th>
+                  <th>Sr. Developer</th>
+                  <th>Legal Team</th>
+                </tr>
+              </tbody>
+            </table>
+          </th>
+        </tr>
+      </thead>
+    </table>
+</body>
+
+<div style="margin-top:100px"></div>
 
 </html>
