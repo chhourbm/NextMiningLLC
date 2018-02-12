@@ -1,6 +1,6 @@
 # NextMiningLLC
 Author: Brian Chhour, Alex Chhour, Roland Monh
 
-Future Mining Enterprise
+Next Mining LLC.
 
-Design for Future Mining Enterprise Website
+Design for Next Mining LLC. Website
