@@ -4,9 +4,17 @@
   text-align: center;
   font-size: 100px;
   text-transform: none;
+  height: 100px;
 }
 
 /*#197bd2 the original blue color from Alex's update*/
+
+.logo {
+    position: absolute;
+    left: 50%;
+    margin-left: -130px !important;  /* 50% of your logo width */
+    display: block;
+}
 
 ul.nav {
   top: 0;
@@ -44,7 +52,7 @@ ul {
 }
 
 li {
-  float: left;
+  float: center;
 }
 
 li a, .dropbtn {
