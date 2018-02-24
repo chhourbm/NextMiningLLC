@@ -10,12 +10,15 @@
 /*#197bd2 the original blue color from Alex's update*/
 
 .logo {
-    position: absolute;
-    left: 50%;
-    margin-left: -130px !important;  /* 50% of your logo width */
-    display: block;
+  position: absolute;
+  left: 50%;
+  margin-left: -130px !important;
+  /* 50% of your logo width */
+  display: block;
 }
+
 /*top navigation*/
+
 ul.nav {
   top: 0;
   width: 100%;
@@ -110,19 +113,21 @@ body {
   margin: 0
 }
 
-.contactForm{
-  text-align:left;
-  margin-left:10px;
+.contactForm {
+  text-align: left;
+  margin-left: 10px;
 }
-.contactForm > input{
-  text-align:left;
+
+.contactForm>input {
+  text-align: left;
 }
 
 /*bottom navigation bar*/
+
 .bottomNavBar {
   overflow: hidden;
   background-color: white;
-  position:;
+  position: ;
   bottom: 0;
   width: 100%;
 }
@@ -328,14 +333,18 @@ td {
 .addButton {
   font-size: 16px;
 }
+
 /*Product items*/
+
 .Items {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 /*Team img items*/
+
 #Items {
   display: flex;
   flex-direction: column;
@@ -345,6 +354,7 @@ td {
   width: 1000px;
   border: 5px solid lightblue;
 }
+
 .avatar {
   vertical-align: middle;
   width: 200px;
@@ -367,9 +377,9 @@ td {
 }
 
 /*team profile*/
-.wrapper{
-    width: 500px; 
-    overflow-x:scroll;     
-    white-space: nowrap;
-}
 
+.wrapper {
+  width: 500px;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
