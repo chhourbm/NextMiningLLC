@@ -10,7 +10,7 @@ $webmaster_email = "nextminingllc@gmail.com";
 This bit sets the URLs of the supporting pages.
 If you change the names of any of the pages, you will need to change the values here.
 */
-$feedback_page = "feedback_form.html";
+$contact_page = "contact.html";
 $error_page = "error_message.html";
 $thankyou_page = "thank_you.html";
 
@@ -20,11 +20,11 @@ If you add a form field, you will need to add it here.
 */
 $email_address = $_REQUEST['email_address'] ;
 $comments = $_REQUEST['comments'] ;
-$first_name = $_REQUEST['name'] ;
+$name = $_REQUEST['name'] ;
 $msg = 
-"First Name: " . $name . "\r\n" . 
-"Email: " . $email_address . "\r\n" . 
-"Comments: " . $comments ;
+"Name:" . $name . "\r\n" . 
+"Email:" . $email_address . "\r\n" . 
+"Comments/Questions:" . $comments ;
 
 /*
 The following function checks for email injection.
@@ -51,7 +51,7 @@ function isInjected($str) {
 
 // If the user tries to access this script directly, redirect them to the feedback form,
 if (!isset($_REQUEST['email_address'])) {
-header( "Location: $feedback_page" );
+header( "Location: $contact_page" );
 }
 
 // If the form fields are empty, redirect to the error page.
