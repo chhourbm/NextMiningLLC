@@ -37,25 +37,27 @@
   <div style="margin-top:50px"></div>
   <header id="ProductHeader" style="font-size:30px; display:flex; flex-direction: column; justify-content:center; align-items:left; margin-left:10px;">Please enter your information below</header>
   <br>
-  <div class="contactForm">
-    <form action="/action_page.php">
+   <div class="contactForm">
+    <form action="mailto:nextminingllc@gmail.com" method="post" enctype="text/plain" name="contactForm" action="send_mail.php">
       Name:
-      <input type="text" name="firstname" value="">
+      <input type="text" name="name" value="">
       <br>
       <br> Email:
-      <input type="text" name="email" value="">
+      <input type="text" name="email_address" value=""><br>
+	  <br>
+	  Comments/Questions:
       <br>
+      <textarea rows="8" cols="50" type="text" name="comments" value=""></textarea>
       <br>
-      <textarea rows="8" cols="50" name="comment" form="usrform">Enter comments/questions here...</textarea>
-      <br><br>
-      <input type="submit" value="Submit">
+      <p><button>Submit the form</button></p>
     </form>
-  </div>
+   </div>
   <p style="text-align:left; margin-left:10px; font-size:20px">Our Contact Information</p>
   <address>
-    <a href = "mailto:NextMining@nextminingllc.com">  <p style="margin-left:10px; text-align:left;">Email: NextMining@nextminingllc.com</p></a>
+    <!--<a href = "mailto:NextMining@nextminingllc.com">-->
+	<p style="margin-left:10px; text-align:left;">Email: NextMining@nextminingllc.com</p></a>
   </address>
-  <p style="text-align:left; margin-left:10px;">Phone: 111-111-1111 (Hours of Operation 9:00am EST - 5:00pm EST)</p>
+  <p style="text-align:left; margin-left:10px;">Hours of Operation: 9:00am EST - 5:00pm EST</p>
   <p style="text-align:left; margin-left:10px;">We respond to emails within 1 business day</p>
 </body>
 
@@ -66,5 +68,7 @@
   <a href="#Privacy Policy">Privacy Policy</a>
   <a href="#Warrenty">Warranty</a>
 </div>
+
+<script src="func.js"></script>
 
 </html>

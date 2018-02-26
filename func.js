@@ -49,3 +49,11 @@ function carousel() {
   setTimeout(carousel, 5000); // Change image every 5 seconds
 }
 //END SLIDESHOW Functions
+
+/*Action Email
+var frmvalidator  = new Validator("contactForm");
+frmvalidator.addValidation("name","req","Please provide your name");
+frmvalidator.addValidation("email","req","Please provide your email");
+frmvalidator.addValidation("comment","req","Please provide your email");
+frmvalidator.addValidation("email","email",
+  "Please enter a valid email address");*/
