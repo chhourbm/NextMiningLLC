@@ -11,10 +11,12 @@
 
 .logo {
   position: absolute;
-  left: 50%;
+  left: 10%;
+  top: -4%;
   margin-left: -130px !important;
   /* 50% of your logo width */
   display: block;
+
 }
 
 /*top navigation*/
@@ -30,7 +32,7 @@ ul.nav {
 }
 
 li {
-  float: left;
+  float: right;
   border-right: none;
 }
 
