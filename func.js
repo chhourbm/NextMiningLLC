@@ -50,10 +50,10 @@ function carousel() {
 }
 //END SLIDESHOW Functions
 
-/*Action Email
+//Action Email
 var frmvalidator  = new Validator("contactForm");
 frmvalidator.addValidation("name","req","Please provide your name");
 frmvalidator.addValidation("email","req","Please provide your email");
-frmvalidator.addValidation("comment","req","Please provide your email");
+frmvalidator.addValidation("comments","req","Please provide your email");
 frmvalidator.addValidation("email","email",
-  "Please enter a valid email address");*/
+  "Please enter a valid email address");
