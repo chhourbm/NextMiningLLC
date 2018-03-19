@@ -16,7 +16,6 @@
   margin-left: -130px !important;
   /* 50% of your logo width */
   display: block;
-
 }
 
 /*top navigation*/
@@ -29,10 +28,12 @@ ul.nav {
   padding: 0;
   overflow: hidden;
   background-color: white;
+  text-align: center;
 }
 
 li {
-  float: right;
+  display: inline;
+  float: none;
   border-right: none;
 }
 
@@ -354,7 +355,8 @@ td {
   align-items: auto;
   overflow-x: scroll;
   width: 1000px;
-  border: /*5px solid lightblue*/;
+  border: /*5px solid lightblue*/
+  ;
 }
 
 .avatar {
