@@ -11,11 +11,8 @@
 
 .logo {
   position: absolute;
-  left: 10%;
-  top: -4%;
-  margin-left: -130px !important;
-  /* 50% of your logo width */
-  display: block;
+  left: 0;
+  top: 0;
 }
 
 /*top navigation*/
