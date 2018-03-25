@@ -410,14 +410,15 @@ td {
 }
 
 .image {
-   position: relative;
-   width: 100%; /* for IE 6 */
-   height: 100%;
+  position: relative;
+  width: 100%;
+  /* for IE 6 */
+  height: 100%;
 }
 
 h2 {
-   position: absolute;
-   text-align: center;
-   top: 200px;
-   width: 100%;
+  position: absolute;
+  text-align: center;
+  top: 200px;
+  width: 100%;
 }
