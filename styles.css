@@ -10,7 +10,7 @@
 /*#197bd2 the original blue color from Alex's update*/
 
 .logo {
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
 }
@@ -26,6 +26,7 @@ ul.nav {
   overflow: hidden;
   background-color: white;
   text-align: center;
+  position: fixed;
 }
 
 li {
