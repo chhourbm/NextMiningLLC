@@ -74,14 +74,35 @@
                 <th>Antminer S9</th>
                 <div style="margin-top:40px"></div>
               </tr>
+			   <tr>
+                <td><img src="AntminerS9.jpg" alt="Sample Product" style="width:400px; height:310px;"></td>
+              </tr>
             </thead>
             <tbody>
-              <tr>
-                <td><a href="AsicProducts.html"><img src="AntminerS9.jpg" alt="Sample Product" style="width:400px; height:310px;"></a></td>
-              </tr>
-              <!--<tr class="addButton">
-                <td><button type="button"><a href="AsicProducts.html">View Selections</a></button></td>
-              </tr>-->
+			  <tr>
+			  <td>
+			  <div class="tab">
+				<button class="tablinks" onclick="productDetail(event, 'Product Info')">Product Info</button>
+				<button class="tablinks" onclick="productDetail(event, 'Specifications')">Specifications</button>
+				<button class="tablinks" onclick="productDetail(event, 'Returns')">Returns</button>
+			  </div>
+
+				<!-- Tab content -->
+				<div id="Product Info" class="tabcontent">
+				<h3>Product Info</h3>
+				  <p>Product Information</p>
+				</div>
+
+				<div id="Specifications" class="tabcontent">
+				<h3>Specifications</h3>
+				  <p>Product Specifications</p> 
+				</div>
+
+				<div id="Returns" class="tabcontent">
+				<h3>Returns</h3>
+				  <p>Return Policy</p>
+				</div>
+			  </td>	
 			  </tr>
             </tbody>
           </table>
@@ -89,7 +110,7 @@
       </tr>
     </thead>
   </table>
-  <div style="margin-top:500px"></div>
+  <div style="margin-top:300px"></div>
 
   <div class="bottomNavBar">
     <a style="float:none">© Copyright 2018, Next Mining,LLC, All rights reserved</a>
