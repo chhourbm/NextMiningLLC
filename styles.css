@@ -129,7 +129,7 @@ body {
   overflow: hidden;
   background-color: white;
   position: absolute;
-  bottom: 0;
+  bottom: 0px;
   width: 100%;
 }
 
@@ -399,6 +399,7 @@ td {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
 }
 
 /*team profile*/
@@ -422,3 +423,13 @@ h2 {
   top: 200px;
   width: 100%;
 }
+.footer {
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: white;
+   color: black;
+   text-align: center;
+}
+
