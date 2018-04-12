@@ -79,3 +79,25 @@ function productDetail(evt, productDetailTabName) {
     document.getElementById(productDetailTabName).style.display = "block";
     evt.currentTarget.className += " active";
 }
+
+//Product detail tabs1
+function productDetail1(evt, productDetailTabName1) {
+    // Declare all variables
+    var i, tabcontent1, tablinks1;
+
+    // Get all elements with class="tabcontent1" and hide them
+    tabcontent1 = document.getElementsByClassName("tabcontent1");
+    for (i = 0; i < tabcontent1.length; i++) {
+        tabcontent1[i].style.display = "none";
+    }
+
+    // Get all elements with class="tablinks1" and remove the class "active"
+    tablinks1 = document.getElementsByClassName("tablinks1");
+    for (i = 0; i < tablinks1.length; i++) {
+        tablinks1[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    // Show the current tab, and add an "active" class to the button that opened the tab
+    document.getElementById(productDetailTabName1).style.display = "block";
+    evt.currentTarget.className += " active";
+}

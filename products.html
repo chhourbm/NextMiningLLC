@@ -43,7 +43,7 @@
     <li><a href="AsicProducts.html">ASIC Mining Rigs</a></li>
   </ul>-->
   <div style="margin-top:100px"></div>
-  <h2 style="position: relative; top: 40%; left: 50%; transform: translate(-50%, -50%); font-size: 300%; color: lightgray;text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">Our Products</h2>
+  <h2 style="position: relative; top: 5%; left: 50%; transform: translate(-50%, -50%); font-size: 300%; color: lightgray;text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">Products</h2>
   <!-- Items in the GPU section -->
 
   <table class="tableItems">
@@ -70,32 +70,40 @@
         <th>
           <table>
             <thead>
-              <tr class="productName">
+			  <tr class="productImage">
                 <th>Bitmain Antminer S9 13TH/s</th>
                 <div style="margin-top:40px"></div>
               </tr>
               <tr>
-                <td><img src="AntminerS9(2).jpg" alt="Sample Product" style="width:400px; height:310px;"></td>
+                <td><img src="AntminerS9(2).jpg" alt="Sample Product" style="width:430px; height:373px;"></td>
               </tr>
             </thead>
-            <tbody>
+		  </table>
+		 </th>
+		 <th>
+		  <table>
+            <thead>
+			  <tr class="productName">
+                <th>Description</th>
+                <div style="margin-top:40px"></div>
+              </tr>
               <tr>
                 <td>
                   <div class="tab">
-                    <button class="tablinks" onclick="productDetail(event, 'Product Info')">Product Info</button>
+                    <button class="tablinks active" onclick="productDetail(event, 'Product Info')">Product Info</button>
                     <button class="tablinks" onclick="productDetail(event, 'Specifications')">Specifications</button>
                     <button class="tablinks" onclick="productDetail(event, 'Reviews')">Reviews</button>
                   </div>
 
                   <!-- Tab content -->
-                  <div id="Product Info" class="tabcontent">
+                  <div id="Product Info" class="tabcontent active" style="width:100%; height:328px;">
                     <h3>Product Information</h3>
                     <p>If you have 220v-264v power, then Bitmain recommends using the APW3++ power supply.<br>If you have 110v-120v power (standard power outlets in the US), then the following power supplies have been confirmed to work well:<br>-TWO APW3++ power supplies<br>
                     -The EVGA's SuperNova 1600 G2<br>
 					</p>
                   </div>
 
-                  <div id="Specifications" class="tabcontent">
+                  <div id="Specifications" class="tabcontent" style="width:100%; height:328px;">
                     <h3>Specifications</h3>
                     <p> Hash Rate: 13.0 TH/s ±5%<br> Power Consumption: 1273W ±10% (at the wall, with APW3++, 93% efficiency, 25°C ambient temp)<br> Power Efficiency: 0.098 W/GH ±7%(at the wall, with APW3++, 93% efficiency, 25°C ambient temp)<br> Rated Voltage:
                       11.60 ~13.00V<br> ASIC Chip: 189 x BM1387<br> Dimensions: 350mm(L)*135mm(W)*158mm(H)<br> Cooling: 2x 12038 fans<br> Operating Temperature: 0 °C to 40 °C<br> Network Connection: Ethernet (network cable not included)<br> Default Frequency:
@@ -103,19 +111,75 @@
                     </p>
                   </div>
 
-                  <div id="Reviews" class="tabcontent">
+                  <div id="Reviews" class="tabcontent" style="width:897px; height:328px;">
                     <h3>Reviews</h3>
                     <p>There are no reviews at this time.</p>
                   </div>
                 </td>
               </tr>
-            </tbody>
+            </thead>
           </table>
         </th>
       </tr>
     </thead>
   </table>
-  <div style="margin-top:300px"></div>
+  <table>
+    </thead>
+	  </tr>
+	    <th>
+          <table>
+            <thead>
+			  <tr class="productName">
+                <th>AntMiner S9 L3+ Power Supply</th>
+                <div style="margin-top:40px"></div>
+              </tr>
+              <tr>
+                <td><img src="powersupply.jpg" alt="Sample Product" style="width:430px; height:373px;"></td>
+              </tr>
+            </thead>
+		  </table>
+		 </th>
+		 <th>
+		  <table>
+            <thead>
+			  <tr class="productName">
+                <th>Description</th>
+                <div style="margin-top:40px"></div>
+              </tr>
+              <tr>
+                <td>
+                  <div class="tab1">
+                    <button class="tablinks1 active" onclick="productDetail1(event, 'Product Info1')">Product Info</button>
+                    <button class="tablinks1" onclick="productDetail1(event, 'Specifications1')">Specifications</button>
+                    <button class="tablinks1" onclick="productDetail1(event, 'Reviews1')">Reviews</button>
+                  </div>
+
+                  <!-- Tab content -->
+                  <div id="Product Info1" class="tabcontent1 active" style="width:897px; height:328px;">
+                    <h3>Product Information</h3>
+                    <p>Product Info</p>
+                  </div>
+
+                  <div id="Specifications1" class="tabcontent1" style="width:897px; height:328px;">
+                    <h3>Specifications</h3>
+                    <p>Specifications</p>
+                  </div>
+
+                  <div id="Reviews1" class="tabcontent1" style="width:897px; height:328px;">
+                    <h3>Reviews</h3>
+                    <p>There are no reviews at this time.</p>
+                  </div>
+                </td>
+              </tr>
+            </thead>
+          </table>
+        </th>
+	  </tr>
+    </thead>
+  </table>
+  
+  <div style="margin-top:100px"></div>
+
 
   <div id="container">
     <div id="header"></div>
