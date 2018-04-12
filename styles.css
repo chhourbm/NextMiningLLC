@@ -102,7 +102,7 @@ li.dropdown {
 }
 
 body {
-  background-image: /*url("mining.jpg")*/
+  background-image: lightgrey /*url("mining.jpg")*/
   ;
   background-repeat: no-repeat;
   background-size: cover;
