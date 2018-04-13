@@ -51,53 +51,53 @@ function carousel() {
 //END SLIDESHOW Functions
 
 //Action Email
-var frmvalidator  = new Validator("contactForm");
-frmvalidator.addValidation("name","req","Please provide your name");
-frmvalidator.addValidation("email","req","Please provide your email");
-frmvalidator.addValidation("comments","req","Please provide your email");
-frmvalidator.addValidation("email","email",
+var frmvalidator = new Validator("contactForm");
+frmvalidator.addValidation("name", "req", "Please provide your name");
+frmvalidator.addValidation("email", "req", "Please provide your email");
+frmvalidator.addValidation("comments", "req", "Please provide your email");
+frmvalidator.addValidation("email", "email",
   "Please enter a valid email address");
 
-//Product detail tabs 
+//Product detail tabs
 function productDetail(evt, productDetailTabName) {
-    // Declare all variables
-    var i, tabcontent, tablinks;
+  // Declare all variables
+  var i, tabcontent, tablinks;
 
-    // Get all elements with class="tabcontent" and hide them
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-    }
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
 
-    // Get all elements with class="tablinks" and remove the class "active"
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
 
-    // Show the current tab, and add an "active" class to the button that opened the tab
-    document.getElementById(productDetailTabName).style.display = "block";
-    evt.currentTarget.className += " active";
+  // Show the current tab, and add an "active" class to the button that opened the tab
+  document.getElementById(productDetailTabName).style.display = "block";
+  evt.currentTarget.className += " active";
 }
 
 //Product detail tabs1
 function productDetail1(evt, productDetailTabName1) {
-    // Declare all variables
-    var i, tabcontent1, tablinks1;
+  // Declare all variables
+  var i, tabcontent1, tablinks1;
 
-    // Get all elements with class="tabcontent1" and hide them
-    tabcontent1 = document.getElementsByClassName1("tabcontent1");
-    for (i = 0; i < tabcontent1.length; i++) {
-        tabcontent1[i].style.display = "none";
-    }
+  // Get all elements with class="tabcontent1" and hide them
+  tabcontent1 = document.getElementsByClassName1("tabcontent1");
+  for (i = 0; i < tabcontent1.length; i++) {
+    tabcontent1[i].style.display = "none";
+  }
 
-    // Get all elements with class="tablinks1" and remove the class "active"
-    tablinks1 = document.getElementsByClassName1("tablinks1");
-    for (i = 0; i < tablinks1.length; i++) {
-        tablinks1[i].className1 = tablinks1[i].className1.replace(" active", "");
-    }
+  // Get all elements with class="tablinks1" and remove the class "active"
+  tablinks1 = document.getElementsByClassName1("tablinks1");
+  for (i = 0; i < tablinks1.length; i++) {
+    tablinks1[i].className1 = tablinks1[i].className1.replace(" active", "");
+  }
 
-    // Show the current tab, and add an "active" class to the button that opened the tab
-    document.getElementById(productDetailTabName1).style.display = "block";
-    evt.currentTarget.className1 += " active";
+  // Show the current tab, and add an "active" class to the button that opened the tab
+  document.getElementById(productDetailTabName1).style.display = "block";
+  evt.currentTarget.className1 += " active";
 }
