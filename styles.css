@@ -102,7 +102,7 @@ li.dropdown {
 }
 
 body {
-  background-image: lightgrey /*url("mining.jpg")*/
+  background-image: lightgrey/*url("mining.jpg")*/
   ;
   background-repeat: no-repeat;
   background-size: cover;
@@ -439,14 +439,12 @@ h2 {
   overflow: hidden;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
-
 }
 
 .tab1 {
   overflow: hidden;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
-
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -485,12 +483,10 @@ h2 {
 
 .tab button.active {
   background-color: #ccc;
-  
 }
 
 .tab1 button.active {
   background-color: #ccc;
-  
 }
 
 /* Style the tab content */
@@ -512,20 +508,21 @@ h2 {
 }
 
 div[class*="tabcontent"]:first-of-type {
-    display: block;
+  display: block;
 }
 
 div[class*="tabcontent1"]:first-of-type {
-    display: block;
+  display: block;
 }
 
 /* add this to the CSS*/
+
 .tabcontent.active {
-    display: block;
+  display: block;
 }
 
 .tabcontent1.active {
-    display: block;
+  display: block;
 }
 
 html, body {
