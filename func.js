@@ -92,7 +92,7 @@ function productDetail1(evt, productDetailTabName1) {
   }
 
   // Get all elements with class="tablinks1" and remove the class "active"
-  tablinks1 = document.getElementsByClassName("tablinks1");
+  tablinks1 = document.getElementsByClassName("tablinks");
   for (i = 0; i < tablinks1.length; i++) {
     tablinks1[i].className = tablinks1[i].className.replace(" active", "");
   }
