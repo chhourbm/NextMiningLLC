@@ -11,8 +11,9 @@
 
 .logo {
   position: fixed;
-  left: -100px;
-  top: -150px;
+  left: -80px;
+  top: -105px;
+
 }
 
 /*top navigation*/
@@ -20,6 +21,7 @@
 ul.nav {
   top: 0;
   width: 100%;
+  height: 9%;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -27,9 +29,12 @@ ul.nav {
   background-color: white;
   text-align: center;
   position: fixed;
+  border-color: black;
+  border-bottom-style: solid;
+
 }
 
-li {
+li.nav {
   display: inline;
   float: none;
   border-right: none;
@@ -52,7 +57,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #197bd2;
+
 }
 
 li {
@@ -63,13 +68,15 @@ li a, .dropbtn {
   display: inline-block;
   color: black;
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: underline;
-  background-color: none;
+  padding: 20px 50px;
+  text-decoration: solid;
+  font-size: 30px;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-  background-color: skyblue;
+  COLOR: gray;
+  TEXT-DECORATION: none;
+  font-weight: none
 }
 
 li.dropdown {
@@ -79,7 +86,7 @@ li.dropdown {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -94,7 +101,7 @@ li.dropdown {
 }
 
 .dropdown-content a:hover {
-  background-color: skyblue
+
 }
 
 .dropdown:hover .dropdown-content {
@@ -245,7 +252,7 @@ img {
 }
 
 .active, .dot:hover {
-  background-color: skyblue;
+
 }
 
 /* Fading animation */
@@ -555,4 +562,10 @@ html, body {
   height: 60px;
   /* Height of the footer */
   background: #white;
+}
+
+.widget{
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 }
