@@ -72,7 +72,7 @@ li a, .dropbtn {
   text-decoration: solid;
   font-size: 30px;
 }
-
+/* Changes the color when you hover over the navbar */
 li a:hover, .dropdown:hover .dropbtn {
   COLOR: gray;
   TEXT-DECORATION: none;
@@ -86,7 +86,6 @@ li.dropdown {
 .dropdown-content {
   display: none;
   position: absolute;
-
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -250,9 +249,11 @@ img {
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-
+/* Background of the active tab */
 .active, .dot:hover {
-
+  COLOR: gray;
+  TEXT-DECORATION: none;
+  font-weight: none
 }
 
 /* Fading animation */
@@ -564,6 +565,7 @@ html, body {
   background: #white;
 }
 
+/* For the widget */
 .widget{
   margin-right: auto;
   width: 40%;
