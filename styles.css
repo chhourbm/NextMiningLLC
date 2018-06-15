@@ -127,7 +127,7 @@ body {
 
 .bottomNavBar {
   overflow: hidden;
-  background-color: white;
+  background-color: rgba(255, 255, 255, .4);
   position: absolute;
   bottom: 0;
   width: 100%;
