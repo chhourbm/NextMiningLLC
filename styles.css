@@ -558,19 +558,21 @@ html, body {
 }
 
 .column {
-    float: left;
+  float: left;
 }
 
-.left{
-	width: 60%;
+.left {
+  width: 60%;
 }
 
-.right{
-	width: 40%;
+.right {
+  width: 40%;
 }
+
 /* Clear floats after the columns */
+
 .row:after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
